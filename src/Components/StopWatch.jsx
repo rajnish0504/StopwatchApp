@@ -49,6 +49,11 @@ function Stopwatch() {
             Reset
           </button>
         </div>
+
+        {/* Footer */}
+        <p style={styles.footer}>
+          Created by Rajnish Singh Chouhan
+        </p>
       </div>
     </div>
   );
@@ -115,6 +120,12 @@ const styles = {
     color: "white",
     borderRadius: "5px",
     cursor: "pointer",
+  },
+
+  footer: {
+    marginTop: "20px",
+    fontSize: "14px",
+    color: "#555",
   },
 };
 
